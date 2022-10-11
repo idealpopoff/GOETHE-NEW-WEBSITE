@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+.container {
+    /* width: 100vw; */
+    margin: 0;
+}
+
+header {
+    display: flex;
+    max-width: 100%;
+    text-align: center;
+    padding: 1em;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleheaders {
+    color: rgb(128, 0, 160);
+    margin: 0;
+    padding: 0;
+    text-shadow: 8px 8px 20px black;
+    margin-left: 1em;
+}
+
+
+main{
+    display: flex;
+}
+
+.nav-buttons {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .3em;
+}
+
+.nav-buttons a {
+    position: relative;
+    color:rgb(124, 124, 124);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: .9rem;
+    transition: 150ms;
+}
+
+.nav-buttons a:after {
+    content: "";
+    position: absolute;
+    background-color: rgb(128, 0, 160);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 150ms;
+}
+
+.nav-buttons a:hover:after {
+    width: 100%;
+}
+
+.nav-buttons a:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+.undertitle {
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    color: white;
+    font-size: .9rem;
+}ч
+
+.left-side {
+    max-width: 250px;
+    min-width: 200px;
+}
+
+.left-side-1,
+.left-side-2,
+.left-side-3,
+.left-side-4,
+.left-side-5,
+.left-side-6,
+.left-side-7,
+.left-side-8 {
+    margin: 1em;
+}
+
+.left-side-1 ul,
+.left-side-2 ul,
+.left-side-3 ul,
+.left-side-4 ul,
+.left-side-5 ul,
+.left-side-6 ul,
+.left-side-7 ul,
+.left-side-8 ul {
+   margin-left: -.8em;
+}
+
+.left-side h3 {
+    color: white;
+    padding: .5em .5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 500;
+    margin: 0;
+    background-color: rgb(128, 0, 160);
+    border-radius: 10px;
+}
+
+.left-side a {
+    text-decoration: none;
+    transition: 100ms;
+    font-size: 1.1rem;
+    color: rgb(124, 124, 124);
+}
+
+.left-side li {
+    list-style: none;
+    text-align: center;
+}
+
+.left-side a:hover {
+    color: rgb(255, 123, 0)
+}
+
+.left-side li {
+    font-size: .8rem;
+    margin-left: -10px;
+}
+
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(107, 107, 107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p {
+    color: rgb(177, 177, 177);
+
+}
+
+.main-section {
+    padding: 1em;
+    max-width: 1000px;
+}
+
