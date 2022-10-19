@@ -161,3 +161,28 @@ footer > p {
     max-width: 1000px;
 }
 
+@media (max-width: 500px) {
+    header {
+        flex-direction: column;
+    }
+
+    .nav-buttons {
+        flex-direction: column;
+    }
+
+    .nav-buttons a {
+        margin: .5em;
+    }
+ 
+    main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+        font-size: .8rem;
+    }
+
+
+}
