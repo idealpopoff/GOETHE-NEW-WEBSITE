@@ -2,4 +2,22 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E7E6E6;
+}
+
+header {
+    display: flex;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header > img {
+    width: 92px;
+    height: 91px;
+    margin: 1em;
 }
